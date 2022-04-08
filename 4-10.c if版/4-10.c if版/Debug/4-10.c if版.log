@@ -1,0 +1,8 @@
+﻿  源.c
+C:\VS\202101610536苏杰恒\4-10.c if版\4-10.c if版\源.c(8,14): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\VS\202101610536苏杰恒\4-10.c if版\4-10.c if版\源.c(10,42): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\VS\202101610536苏杰恒\4-10.c if版\4-10.c if版\源.c(12,58): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\VS\202101610536苏杰恒\4-10.c if版\4-10.c if版\源.c(14,74): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\VS\202101610536苏杰恒\4-10.c if版\4-10.c if版\源.c(16,91): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\VS\202101610536苏杰恒\4-10.c if版\4-10.c if版\源.c(18,108): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  4-10.c if版.vcxproj -> C:\VS\202101610536苏杰恒\4-10.c if版\Debug\4-10.c if版.exe
