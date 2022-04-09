@@ -1,0 +1,8 @@
+﻿  源.c
+C:\VS\202101610536苏杰恒\4-10.c switch版\4-10.c switch版\源.c(11,14): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\VS\202101610536苏杰恒\4-10.c switch版\4-10.c switch版\源.c(19,42): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\VS\202101610536苏杰恒\4-10.c switch版\4-10.c switch版\源.c(24,58): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\VS\202101610536苏杰恒\4-10.c switch版\4-10.c switch版\源.c(29,74): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\VS\202101610536苏杰恒\4-10.c switch版\4-10.c switch版\源.c(36,91): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\VS\202101610536苏杰恒\4-10.c switch版\4-10.c switch版\源.c(40,108): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  4-10.c switch版.vcxproj -> C:\VS\202101610536苏杰恒\4-10.c switch版\Debug\4-10.c switch版.exe
