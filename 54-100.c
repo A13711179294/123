@@ -1,10 +1,10 @@
-//¶Ô10¸öÊı½øĞĞÅÅĞò
+//å¯¹10ä¸ªæ•°è¿›è¡Œæ’åº
 #include<stdio.h>
 int main()
 {
 	int i, j, k, n;
 	int arr[10] = { 0 };
-	printf("ÇëÊäÈë10¸öÊı\n");
+	printf("è¯·è¾“å…¥10ä¸ªæ•°\n");
 	for (i = 0; i < 10; i++)
 	{
 		scanf_s("%d", &arr[i]);
