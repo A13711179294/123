@@ -1,10 +1,10 @@
-//编程求一个整数任意次方后的最后三位数, 即求X^ Y的最后三位数, X和Y的值由键盘输入
+//缂栫▼姹備竴涓暣鏁颁换鎰忔鏂瑰悗鐨勬渶鍚庝笁浣嶆暟, 鍗虫眰X^ Y鐨勬渶鍚庝笁浣嶆暟, X鍜孻鐨勫�肩敱閿洏杈撳叆
 #include<stdio.h>
 #include<math.h>
 int main()
 {
 	int x, y;
-	printf("请输入两个数\n");
+	printf("璇疯緭鍏ヤ袱涓暟\n");
 	scanf_s("%d %d", &x, &y);
 	int num = pow(x, y);
 	num = num % 1000;
