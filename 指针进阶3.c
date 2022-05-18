@@ -9,9 +9,9 @@ int main()
 	int* pa = &a;
 	int** ppa = &pa;
 	test(ppa);
-	test(&pa);//传一级指针变量的地址
+	test(&pa);//浼犱竴绾ф寚閽堝彉閲忕殑鍦板潃
 	int* arr[10] = { 0 };
-	test(arr);//传存放一级指针的数组
+	test(arr);//浼犲瓨鏀句竴绾ф寚閽堢殑鏁扮粍
 	printf("%d\n", a);
 	return 0;
 }
