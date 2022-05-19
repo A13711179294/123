@@ -13,7 +13,7 @@ int main()
 	int* ptr = (int*)(&a + 1);
 	printf("%d,%d", *(a + 1), *(ptr - 1));
 
-	//¼ÙÉèpµÄÖµÎª0x100000,TestÀàĞÍµÄ±äÁ¿´óĞ¡ÊÇ20¸ö×Ö½Ú
+	//å‡è®¾pçš„å€¼ä¸º0x100000,Testç±»å‹çš„å˜é‡å¤§å°æ˜¯20ä¸ªå­—èŠ‚
 	printf("%p\n", p + 0x1);//0x100014
 	printf("%p\n", (unsigned long)p + 0x1);//0x100001
 	printf("%p\n", (unsigned int*)p + 0x1);//0x100004
@@ -21,6 +21,6 @@ int main()
 	int b[4] = { 1,2,3,4 };
 	int* ptr1 = (int*)(&a + 1);
 	int* ptr2 = (int*)((int)a + 1);
-	printf("%x,%x", ptr1[-1], *ptr2);// ptr1[-1]µÈÓÚ*(ptr1+(-1)) *(ptr1-1)
+	printf("%x,%x", ptr1[-1], *ptr2);// ptr1[-1]ç­‰äº*(ptr1+(-1)) *(ptr1-1)
 	return 0;
 }
