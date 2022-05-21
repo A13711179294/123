@@ -6,10 +6,10 @@ int main()
 	printf("%d\n", sizeof(a));//48
 	printf("%d\n", sizeof(a[0][0]));//4
 	printf("%d\n", sizeof(a[0]));//16
-	printf("%d\n", sizeof(a[0] + 1));//4 第一行第二个元素的地址
+	printf("%d\n", sizeof(a[0] + 1));//4 绗竴琛岀浜屼釜鍏冪礌鐨勫湴鍧�
 	printf("%d\n", sizeof(*a[0] + 1));//4
-	printf("%d\n", sizeof(a + 1));//4 第二行的地址
-	printf("%d\n", sizeof(*(a + 1)));//16 表示计算第二行的大小
+	printf("%d\n", sizeof(a + 1));//4 绗簩琛岀殑鍦板潃
+	printf("%d\n", sizeof(*(a + 1)));//16 琛ㄧず璁＄畻绗簩琛岀殑澶у皬
 	printf("%d\n", sizeof(&a[0] + 1));//4
 	printf("%d\n", sizeof(*(&a[0] + 1)));//16
 	printf("%d\n", sizeof(*a));//16
