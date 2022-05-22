@@ -2,23 +2,23 @@
 #include<string.h>
 int main()
 {
-	//×Ö·ûÊı×é
+	//å­—ç¬¦æ•°ç»„
 	char arr[] = { 'a','b','c','d','e','f' };
-	printf("%d\n", strlen(arr));//Ëæ»úÖµ
-	printf("%d\n", strlen(arr + 0));//Ëæ»úÖµ
+	printf("%d\n", strlen(arr));//éšæœºå€¼
+	printf("%d\n", strlen(arr + 0));//éšæœºå€¼
 	//printf("%d\n", strlen(*arr));//err
 	//printf("%d\n", strlen(arr[1]));//err
-	printf("%d\n", strlen(&arr));//Ëæ»úÖµ
-	printf("%d\n", strlen(&arr + 1));//Ëæ»úÖµ-6
-	printf("%d\n", strlen(&arr[0] + 1));//Ëæ»úÖµ-1
+	printf("%d\n", strlen(&arr));//éšæœºå€¼
+	printf("%d\n", strlen(&arr + 1));//éšæœºå€¼-6
+	printf("%d\n", strlen(&arr[0] + 1));//éšæœºå€¼-1
 
 	char* p="abcdef";
 	printf("%d\n", strlen(p));//6
 	printf("%d\n", strlen(p + 1));//5
 	//printf("%d\n", strlen(*p));//err
 	//printf("%d\n", strlen(p[0]));//err
-	printf("%d\n", strlen(&p));//Ëæ»úÖµ
-	printf("%d\n", strlen(&p + 1));//Ëæ»úÖµ
+	printf("%d\n", strlen(&p));//éšæœºå€¼
+	printf("%d\n", strlen(&p + 1));//éšæœºå€¼
 	printf("%d\n", strlen(&p[0] + 1));//5
 	return 0;
 }
