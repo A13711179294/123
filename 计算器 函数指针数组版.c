@@ -30,27 +30,27 @@ int main()
 	do
 	{
 		menu();
-		int(*pfArr[5])(int, int) = { NULL,Add,Sub,Mul,Div };//×ªÒÆ±í
+		int(*pfArr[5])(int, int) = { NULL,Add,Sub,Mul,Div };//è½¬ç§»è¡¨
 		int x = 0;
 		int y = 0;
 		int ret = 0;	   
-		printf("ÇëÑ¡Ôñ:>");
+		printf("è¯·é€‰æ‹©:>");
 		scanf("%d", &input);
 		if (input >= 1 && input <= 4)
 		{
-			printf("ÇëÊäÈë2¸ö²Ù×÷Êı:>");
+			printf("è¯·è¾“å…¥2ä¸ªæ“ä½œæ•°:>");
 			scanf("%d %d", &x, &y);
 			ret = (pfArr[input])(x, y);
 			printf("ret=%d\n", ret);
 		}
 		else if (input == 0)
 		{
-			printf("ÍË³ö³ÌĞò\n");
+			printf("é€€å‡ºç¨‹åº\n");
 			break;
 		}
 		else
 		{
-			printf("Ñ¡Ôñ´íÎó\n");
+			printf("é€‰æ‹©é”™è¯¯\n");
 		}
 	} while (input);
 	return 0;
