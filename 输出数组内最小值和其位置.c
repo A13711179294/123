@@ -11,6 +11,6 @@ int main()
 			j = i;
 		}
 	}
-	printf("位置为arr[%d] 值为%d\n", j, min);
+	printf("脦禄脰脙脦陋arr[%d] 脰碌脦陋%d\n", j, min);
 	return 0;
 }
