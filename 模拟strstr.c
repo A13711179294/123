@@ -34,11 +34,11 @@ int main()
 	char* ret = my_strstr(arr1, arr2);
 	if (ret == NULL)
 	{
-		printf("没找到\n");
+		printf("脙禄脮脪碌陆\n");
 	}
 	else
 	{
-		printf("找到了\n");
+		printf("脮脪碌陆脕脣\n");
 	}
 	return 0;
 }
