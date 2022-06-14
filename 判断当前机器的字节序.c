@@ -5,10 +5,10 @@
 //	char* p = (char*)&a;
 //	if (*p == 1)
 //	{
-//		printf("Ğ¡¶Ë\n");
+//		printf("å°ç«¯\n");
 //	}
 //	else
-//		printf("´ó¶Ë\n");
+//		printf("å¤§ç«¯\n");
 //	return 0;
 //}
 #include<stdio.h>
@@ -16,18 +16,18 @@ int check_sys()
 {
 	int a = 1;
 	char* p = (char*)&a;
-	return *p;//·µ»Ø1±íÊ¾Ğ¡¶Ë£¬·µ»Ø0±íÊ¾´ó¶Ë
+	return *p;//è¿”å›1è¡¨ç¤ºå°ç«¯ï¼Œè¿”å›0è¡¨ç¤ºå¤§ç«¯
 }
 int main()
 {
 	int ret = check_sys();
 	if (ret == 1)
 	{
-		printf("Ğ¡¶Ë\n");
+		printf("å°ç«¯\n");
 	}
 	else
 	{
-		printf("´ó¶Ë\n");
+		printf("å¤§ç«¯\n");
 	}
 	return 0;
 }
