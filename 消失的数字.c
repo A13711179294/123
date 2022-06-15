@@ -2,11 +2,11 @@
 int missingNumber(int * nums,int numsSize)
 {
 	int i = 0, x = 0;
-	for (i = 0; i <= numsSize; i++)//¸ú[0,n]Òì»ò
+	for (i = 0; i <= numsSize; i++)//Â¸Ãº[0,n]Ã’Ã¬Â»Ã²
 	{
 		x ^= i;
 	}
-	for (i = 0; i < numsSize; i++)//ÔÙ¸úÊı×éÒì»ò
+	for (i = 0; i < numsSize; i++)//Ã”Ã™Â¸ÃºÃŠÃ½Ã—Ã©Ã’Ã¬Â»Ã²
 	{
 		x ^= nums[i];
 	}
