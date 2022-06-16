@@ -16,9 +16,9 @@ void rotate(int* nums, int numsSize, int k)
 {
 	if (k >= numsSize)
 		k %= numsSize;
-	Reverse(nums, 0, numsSize - k - 1);//前n-k个数逆置
-	Reverse(nums, numsSize - k, numsSize - 1);//后k个逆置
-	Reverse(nums, 0, numsSize - 1);//整体逆置
+	Reverse(nums, 0, numsSize - k - 1);//鍓峮-k涓暟閫嗙疆
+	Reverse(nums, numsSize - k, numsSize - 1);//鍚巏涓�嗙疆
+	Reverse(nums, 0, numsSize - 1);//鏁翠綋閫嗙疆
 }
 int main()
 {
