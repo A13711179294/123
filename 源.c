@@ -1,13 +1,15 @@
 #include<stdio.h>
 int main()
 {
-	int  i, j, b;
-	long long sum = 0, x = 1;
+	int i = 1;
+	float j = 2, k = 1, a = 0, sum = 0;
 	for (i = 1; i <= 20; i++)
 	{
-		x *= i;
-		sum += x;
+		sum += j / k;
+		a = k;
+		k = j;
+		j += a;
 	}
-	printf("%lld", sum);
+	printf("%f", sum);
 	return 0;
 }
