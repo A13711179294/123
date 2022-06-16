@@ -1,15 +1,23 @@
 #include<stdio.h>
 int main()
 {
-	int i = 1;
-	float j = 2, k = 1, a = 0, sum = 0;
-	for (i = 1; i <= 20; i++)
+	int i = 0, j = 0, k = 0;
+	int arr[10] = { 984,42,590,234,51,4525,747,49,130,88 };
+	for (i = 0; i < 10; i++)
 	{
-		sum += j / k;
-		a = k;
-		k = j;
-		j += a;
+		for (j = i + 1; j < 10; j++)
+		{
+			if (arr[i] > arr[j])
+			{
+				k = arr[j];
+				arr[j] = arr[i];
+				arr[i] = k;
+			}
+		}
 	}
-	printf("%f", sum);
+	for (i = 0; i < 10; i++)
+	{
+		printf("%d ", arr[i]);
+	}
 	return 0;
 }
