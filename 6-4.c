@@ -3,7 +3,7 @@ int main()
 {
 	int x = 0, i = 0, a = 0;
 	int arr[8] = { 5,21,32,51,76,98,762 };
-	printf("请输入一个数字\n");
+	printf("脟毛脢盲脠毛脪禄赂枚脢媒脳脰\n");
 	scanf_s("%d", &x);
 	for (i = 0; i < 8; i++)
 	{
