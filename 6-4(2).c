@@ -19,7 +19,7 @@ int main()
 	int arr[10] = { 5,21,32,51,76,87,102,357,6655 };
 	int x = 0, i = 0, * p = arr;
 	int sz = sizeof(arr) / sizeof(arr[0]);
-	printf("请输入一个数字\n");
+	printf("脟毛脢盲脠毛脪禄赂枚脢媒脳脰\n");
 	scanf_s("%d", &x);
 	sort_array(p, sz, x);
 	for (i = 0; i < sz; i++)
