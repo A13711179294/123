@@ -45,13 +45,13 @@ int main()
 		}
 		if (max == min && sum1 < 2 && sum2 < 2)
 		{
-			printf("°°µãÎªarr[%d][%d]=%d ", i, b,arr[i][b]);
+			printf("Â°Â°ÂµÃ£ÃÂªarr[%d][%d]=%d ", i, b,arr[i][b]);
 			count++;
 		}
 	}
 	if (count == 0)
 	{
-		printf("´ËÊı×éÎŞ°°µã\n");
+		printf("Â´Ã‹ÃŠÃ½Ã—Ã©ÃÃÂ°Â°ÂµÃ£\n");
 	}
 	return 0;
 }
