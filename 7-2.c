@@ -3,20 +3,20 @@
 #include<math.h>
 void f1(double P,double Q)
 {
-	printf("此方程的根为x1=%7.2f,x2=%7.2f\n", P + Q, P - Q);
+	printf("姝ゆ柟绋嬬殑鏍逛负x1=%7.2f,x2=%7.2f\n", P + Q, P - Q);
 }
 void f2(double P, double Q)
 {
-	printf("此方程的根为x=%7.2f\n",P + Q);
+	printf("姝ゆ柟绋嬬殑鏍逛负x=%7.2f\n",P + Q);
 }
 void f3()
 {
-	printf("此方程无实根\n");
+	printf("姝ゆ柟绋嬫棤瀹炴牴\n");
 }
 int main()
 {
 	double a, b, c, disc, q, p;
-	printf("请输入a,b,c的值\n");
+	printf("璇疯緭鍏,b,c鐨勫�糪n");
 	scanf("%lf%lf%lf", &a, &b, &c);
 	disc = b * b - 4 * a * c;
 	p = -b / (2 * a);
