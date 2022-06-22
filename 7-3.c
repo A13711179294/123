@@ -14,13 +14,13 @@ int is_prime(int n)
 int main()
 {
 	int x = 0;
-	printf("请输入一个整数\n");
+	printf("璇疯緭鍏ヤ竴涓暣鏁癨n");
 	scanf("%d", &x);
 	if (is_prime(x) == 1)
 	{
-		printf("该数是素数\n");
+		printf("璇ユ暟鏄礌鏁癨n");
 	}
 	else
-		printf("该数不是素数\n");
+		printf("璇ユ暟涓嶆槸绱犳暟\n");
 	return 0;
 }
