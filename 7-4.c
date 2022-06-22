@@ -16,7 +16,7 @@ int main()
 {
 	int arr[3][3] = { 1,2,3,4,5,6,7,8,9 };
 	int i = 0, j = 0;
-	printf("原来的数组\n");
+	printf("鍘熸潵鐨勬暟缁刓n");
 	for (i = 0; i < 3; i++)
 	{
 		for (j = 0; j < 3; j++)
@@ -26,7 +26,7 @@ int main()
 		printf("\n");
 	}
 	test(arr);
-	printf("转换后的数组\n");
+	printf("杞崲鍚庣殑鏁扮粍\n");
 	for (i = 0; i < 3; i++)
 	{
 		for (j = 0; j < 3; j++)
