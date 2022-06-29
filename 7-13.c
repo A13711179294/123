@@ -15,8 +15,8 @@ int main()
 {
 	int n = 0;
 	double x = 0;
-	printf("请输入n和x的值\n");
+	printf("璇疯緭鍏鍜寈鐨勫�糪n");
 	scanf("%d %lf", &n, &x);
-	printf("%d阶勒让德多项式的值为%f\n", n, f(n, x));
+	printf("%d闃跺嫆璁╁痉澶氶」寮忕殑鍊间负%f\n", n, f(n, x));
 	return 0;
 }
