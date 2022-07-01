@@ -12,7 +12,7 @@ void stu_ave(int score[][5])
 		{
 			sum += score[i][j];
 		}
-		printf("µÚ%d¸öÑ§ÉúµÄÆ½¾ù·ÖÎª%f\n", i + 1, sum / 5);
+		printf("ç¬¬%dä¸ªå­¦ç”Ÿçš„å¹³å‡åˆ†ä¸º%f\n", i + 1, sum / 5);
 	}
 }
 void suj_ave(int score[][5])
@@ -26,7 +26,7 @@ void suj_ave(int score[][5])
 			{
 				sum += score[i][j];
 			}			
-			printf("µÚ%dÃÅ¿ÎµÄÆ½¾ùÊıÎª:%f\n", j + 1, sum / 10);
+			printf("ç¬¬%dé—¨è¯¾çš„å¹³å‡æ•°ä¸º:%f\n", j + 1, sum / 10);
 		}
 	}
 }
@@ -41,7 +41,7 @@ void max_course(int score[][5])
 				max = score[i][j]; stu = i + 1; cour = j + 1;
 		}		
 	}
-	printf("µÚ%d¸öÑ§ÉúµÄµÚ%dÃÅ¿Î»ñµÃÁË%dµÄ×î¸ß·Ö\n", stu, cour, max);
+	printf("ç¬¬%dä¸ªå­¦ç”Ÿçš„ç¬¬%dé—¨è¯¾è·å¾—äº†%dçš„æœ€é«˜åˆ†\n", stu, cour, max);
 }
 void vari_course(int score[][5])
 {
@@ -61,7 +61,7 @@ void vari_course(int score[][5])
 		x2 += average[i];
 	}
 	var = x1 / 10 - pow(x2 / 10, 2);
-	printf("·½²îÎª%f\n", var);
+	printf("æ–¹å·®ä¸º%f\n", var);
 }
 int main()
 {
