@@ -16,14 +16,14 @@ int main()
 	char ch1[81] = { 0 };
 	char ch2[81] = { 0 };
 	gets(ch1);
-	printf("ÇëÊäÈëm\n");
+	printf("Ã‡Ã«ÃŠÃ¤ÃˆÃ«m\n");
 	scanf("%d", &m);
 	if (strlen(ch1) >= m)
 	{
 		cut_str(ch1, ch2, m);
 	}
 	else
-		printf("ÊäÈë´íÎó\n");
+		printf("ÃŠÃ¤ÃˆÃ«Â´Ã­ÃÃ³\n");
 	puts(ch2);
 	return 0;
 }
